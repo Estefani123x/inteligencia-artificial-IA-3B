@@ -1,0 +1,44 @@
+/* Estilo básico para a apresentação */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+.center-image {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #2c3e50;
+}
+
+.highlight {
+  background-color: #e74c3c;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #3498db;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+

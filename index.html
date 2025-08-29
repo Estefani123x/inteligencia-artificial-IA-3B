@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apresentação Interativa</title>
+
+  <!-- Link do Reveal.js -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.0.0/dist/reveal.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.0.0/dist/theme/solarized.css">
+
+  <!-- Estilo customizado -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+      <!-- Slide 1 -->
+      <section>
+        <h1>Bem-vindos à Minha Apresentação!</h1>
+        <p>Hoje vamos explorar como um simples projeto pode fazer grandes mudanças.</p>
+        <img src="images/logo.png" alt="Logo do Projeto" class="center-image" />
+      </section>
+
+      <!-- Slide 2 -->
+      <section>
+        <h2>O Desafio</h2>
+        <p>Como podemos criar soluções que impactam diretamente a sociedade?</p>
+        <img src="images/icone.svg" alt="Ícone Desafio" class="center-image" />
+      </section>
+
+      <!-- Slide 3: Interação com a plateia -->
+      <section>
+        <h2>Interação</h2>
+        <p>O que vocês acham que pode mudar no mundo com a tecnologia?</p>
+        <button id="btn_interacao">Responder</button>
+      </section>
+
+      <!-- Slide 4 -->
+      <section>
+        <h2>Impacto do Projeto</h2>
+        <p>Nosso projeto tem o poder de mudar a forma como vemos as tecnologias emergentes.</p>
+        <div class="highlight">
+          <p>Como isso pode afetar sua vida ou seu trabalho?</p>
+        </div>
+      </section>
+
+      <!-- Slide Final -->
+      <section>
+        <h2>Conclusão</h2>
+        <p>Obrigado por participarem dessa jornada. O futuro está em nossas mãos!</p>
+      </section>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.0.0/dist/reveal.min.js"></script>
+  <script>
+    // Inicializar o Reveal.js
+    Reveal.initialize({
+      controls: true,
+      progress: true,
+      history: true,
+      center: true,
+      transition: 'slide',
+    });
+
+    // Interação com a plateia
+    document.getElementById('btn_interacao').addEventListener('click', function () {
+      alert('Muito obrigado pela sua contribuição!');
+    });
+  </script>
+</body>
+</html>
+
